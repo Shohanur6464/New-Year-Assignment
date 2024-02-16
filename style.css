@@ -1,5 +1,11 @@
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .banner{
-    background-image: url(resources/Banner\ Image.png);
+    width: 70%;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(resources/Banner\ Image.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;
@@ -14,6 +20,7 @@
     color: white;
     font-size: 30px;
     font-weight: 800;
+    text-align: center;
 }
 .tittle{
     
@@ -29,8 +36,71 @@
     align-items: center;
 }
 .comingsoon{
-    margin-top: 80px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.welcome-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.welcome{
+    background-image: url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.welcome img{
+    width: 70%;
+}
+.btn-join{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+.joinnow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joinnow{
+    margin-top: 80px;
+    background: linear-gradient(to bottom, #FFCCCC, #FFFFFF);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-joinnow{
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.place{
+    color: red;
+}
+
+.elips-container{
+    border: 5px solid red;
+    border-radius: 300px;
+}
+.elips-container img{
+    padding: 15px;
 }
