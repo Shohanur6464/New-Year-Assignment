@@ -34,6 +34,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.offer-tittle{
+    color: red;
+    font-size: 60px;
+    font-weight: 800;
+}
+.holidays{
+    color: red;
 }
 .comingsoon{
     margin-top: 100px;
@@ -44,7 +53,7 @@
 .welcome-container{
     margin-top: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     
 }
@@ -62,6 +71,17 @@
 }
 .welcome img{
     width: 70%;
+}
+.welcome-tittle{
+    color: white;
+    font-size: 60px;
+}
+.welcome-details{
+    color: white;
+    font-size: 30px;
+}
+.comingsoon-tittle{
+    color: red;
 }
 .btn-join{
     background-color: black;
@@ -103,4 +123,90 @@
 }
 .elips-container img{
     padding: 15px;
+}
+.portfolio-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio{
+    width: 70%;
+}
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.image-container img:hover{
+    transform: scale(1.1);
+}
+.input-field{
+    padding: 15px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+}
+.btn-subscribe{
+    padding: 15px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+.subscribe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.subscribe-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(222, 38, 38, 0.28);
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer-container{
+    margin-top: 100px;
+    background-color: rgba(7, 2, 17, 1);
+    color: white;
+}
+.contact-container{
+    display: flex;
+    gap: 10px;
+    
+
+}
+.address-container{
+    padding: 60px 180px 60px 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.hr-line{
+    width: 80%;
+    
+}
+.icon-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.unsuscribe-container{
+    padding: 60px 180px 60px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
